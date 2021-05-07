@@ -11,6 +11,7 @@
 		5C5E99E02645EB160052D54C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5E99DF2645EB160052D54C /* ContentView.swift */; };
 		5C5E99E22645EB190052D54C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C5E99E12645EB190052D54C /* Assets.xcassets */; };
 		5C5E99E52645EB190052D54C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C5E99E42645EB190052D54C /* Preview Assets.xcassets */; };
+		5C5E99EE2645F2A30052D54C /* GoblinOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C5E99ED2645F2A30052D54C /* GoblinOne-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		5C5E99E12645EB190052D54C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C5E99E42645EB190052D54C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C5E99E62645EB190052D54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C5E99ED2645F2A30052D54C /* GoblinOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GoblinOne-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		5C5E99DC2645EB160052D54C /* EugeneApp */ = {
 			isa = PBXGroup;
 			children = (
+				5C5E99EC2645F28E0052D54C /* fonts */,
 				5C5E99DD2645EB160052D54C /* EugeneAppApp.swift */,
 				5C5E99DF2645EB160052D54C /* ContentView.swift */,
 				5C5E99E12645EB190052D54C /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				5C5E99E42645EB190052D54C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5C5E99EC2645F28E0052D54C /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5C5E99ED2645F2A30052D54C /* GoblinOne-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C5E99E52645EB190052D54C /* Preview Assets.xcassets in Resources */,
+				5C5E99EE2645F2A30052D54C /* GoblinOne-Regular.ttf in Resources */,
 				5C5E99E22645EB190052D54C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
